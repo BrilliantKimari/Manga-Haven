@@ -26,3 +26,42 @@
     text-align: center;
     margin-top: 50px;
 }
+
+.manga-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border: 3px solid rgb(19, 18, 18);
+    border-radius: 50px;
+    transition: all 0.3s ease;
+width: 80%;
+align-items: center;
+}
+
+.manga-list:hover {
+    background-color: rgb(236, 232, 196);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.manga-item {
+    background-color: rgb(236, 232, 196);
+    border: 2px solid rgb(19, 18, 18);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    object-fit: cover;
+}
+.manga-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.manga-item:hover {
+    transform: scale(1.05);
+}

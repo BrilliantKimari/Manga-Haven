@@ -10,7 +10,19 @@
             "genre": "Action, Fantasy, Drama",
             "rating": 4.5,
             "published": "2023-10-01"
+        },
+        {
+            "id":2,
+            "title": "Nano Machine",
+        "chapter":265,
+            "image": "https://meo.comick.pictures/v8YXRJ-s.jpg",
+"description": "After being held in disdain and having his life put in danger, an orphan from the Demonic Cult, Cheon Yeo-Woon, has an unexpected visit from his descendant from the future who inserts a nano machine into Cheon Yeo-Woon's body, which drastically changes Cheon Yeo-Woon's life after its activation. The story of Cheon Yeo-Woon's journey of bypassing the Demonic Cult and rising to become the best martial artist has just begun.",
+            "author": "Hanjung Wolyang",
+            "genre": "Action, Fantasy, Drama",
+            "rating": 4.5,
+            "published": "2020-10-01"
         }
+
 
 
     ]
