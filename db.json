@@ -1,0 +1,17 @@
+{
+    "Manga":[
+        {
+            "id":1,
+            "title": "Revenge of The Baskerville Bastard",
+        "chapter":213,
+            "image": "https://meo.comick.pictures/N6n5Xz-s.jpg",
+"description": "Raised to kill like a pack of loyal hounds, the Baskerville children took countless lives as a band of fearsome assassins.,Despite being the shunned illegitimate son of the brood, Vikir served his family faithfully, only to meet his untimely demise at his father’s hands. But when he is inexplicably reborn with a second chance at life, Vikir, armed with the memories and knowledge of his past, swears to rise above the pack and take his revenge.\nThis time, he's ready to bite the hand that feeds.",
+            "author": "Kimari",
+            "genre": "Action, Fantasy, Drama",
+            "rating": 4.5,
+            "published": "2023-10-01"
+        }
+
+
+    ]
+}
