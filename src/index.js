@@ -55,6 +55,15 @@ fetch('http://localhost:3000/Manga')
         document.getElementById(this.dataset.text).value = '';
       });
     });
+    // Add mouseover/mouseout events for manga items (must be inside this block)
+    mangaList.querySelectorAll('.manga-item').forEach(item => {
+      item.addEventListener('mouseover', function() {
+        this.style.backgroundColor = '#f0f0f0';
+      });
+      item.addEventListener('mouseout', function() {
+        this.style.backgroundColor = '';
+      });
+    });
   })
   .catch(error => {
     console.error('Error fetching manga:', error);
@@ -73,18 +82,7 @@ fetch('http://localhost:3000/Manga')
     });
   });
 
-  //Add a mouseover event for the manga items
-  document.querySelectorAll('.manga-item').forEach(item => {
-    item.addEventListener('mouseover', function() {
-      this.style.backgroundColor = '#f0f0f0';
-    });
-    item.addEventListener('mouseout', function() {
-      this.style.backgroundColor = '';
-    });
-  });
 
-// Add a click event listener to the header to scroll to the top
-document.querySelector('.myheader').addEventListener('click', function() {
 
 
 
