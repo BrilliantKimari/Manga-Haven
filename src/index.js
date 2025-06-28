@@ -60,7 +60,31 @@ fetch('http://localhost:3000/Manga')
     console.error('Error fetching manga:', error);
   });
 
-  
+  document.getElementById('search-bar').addEventListener('input', function() {
+    const searchTerm = this.value.toLowerCase();
+    const mangaItems = document.querySelectorAll('.manga-item');
+    mangaItems.forEach(item => {
+      const title = item.querySelector('h2').textContent.toLowerCase();
+      if (title.includes(searchTerm)) {
+        item.style.display = '';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  });
+
+  //Add a mouseover event for the manga items
+  document.querySelectorAll('.manga-item').forEach(item => {
+    item.addEventListener('mouseover', function() {
+      this.style.backgroundColor = '#f0f0f0';
+    });
+    item.addEventListener('mouseout', function() {
+      this.style.backgroundColor = '';
+    });
+  });
+
+// Add a click event listener to the header to scroll to the top
+document.querySelector('.myheader').addEventListener('click', function() {
 
 
 
