@@ -72,7 +72,7 @@ Manga-Haven/
 ## Credits
 
 - Manga cover images and descriptions are for demo purposes only.
-- Built by [Your Name].
+- Built by Brilliant Kimari.
 
 ---
 
